@@ -1,4 +1,4 @@
-console.log("What's always done in the dark will always fine a way to shine.")
+console.log("What's done in the dark will always fine a way to shine.")
 
 const keywords = ["ai", "llm", "agent", "gpt", "claude", "anthropic", "gemini", "model", "openai", "vibecode", "chatgpt"]
 
