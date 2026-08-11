@@ -1,13 +1,13 @@
 console.log("What's done in the dark will always fine a way to shine.")
 
+
 const keywords = ["ai", "llm", "agent", "gpt", "claude", "anthropic", "gemini", "model", "openai", "vibecode", "chatgpt"]
 
 const current_url = window.location.href;
 
-const destination_url = "https://hackernews.com/"
 
 if (current_url.includes("reddit.com")) {
-	window.location.replace(destination_url);
+	window.location.replace("https://hackernews.com/");
 }
 
 if (current_url.includes("news.ycombinator.com")) {
