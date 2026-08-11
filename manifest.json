@@ -6,9 +6,9 @@
 	"permissions": [],
 	"content_scripts": [
 		{
-			"matches": ["*://*.reddit.com/*"],
+			"matches": ["*://*.reddit.com/*", "*://*.news.ycombinator.com/*"],
 			"js": ["content.js"],
-			"run_at": "document_start"
+			"run_at": "document_end"
 		}
 	]
 }
