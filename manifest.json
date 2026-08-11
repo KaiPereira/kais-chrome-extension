@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "kai's cool extension",
+	"version": "1.0",
+	"description": "MY VERY COOL EXTENSION :D",
+	"permissions": [],
+	"content_scripts": [
+		{
+			"matches": ["*://*.reddit.com/*"],
+			"js": ["content.js"],
+			"run_at": "document_start"
+		}
+	]
+}
