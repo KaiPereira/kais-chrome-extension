@@ -1,7 +1,7 @@
 console.log("What's done in the dark will always fine a way to shine.")
 
 
-const keywords = ["ai", "llm", "agent", "gpt", "claude", "anthropic", "gemini", "model", "openai", "vibecode", "chatgpt"]
+const keywords = ["ai", "llm", "agent", "gpt", "claude", "anthropic", "gemini", "model", "openai", "vibecode", "chatgpt", "copilot", "grok"]
 
 const current_url = window.location.href;
 
